@@ -65,6 +65,11 @@
         "algorithm": "cpp",
         "functional": "cpp",
         "iterator": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "deque": "cpp",
+        "format": "cpp",
+        "numeric": "cpp",
+        "queue": "cpp",
+        "random": "cpp"
     }
 }
