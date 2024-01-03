@@ -24,6 +24,10 @@ public:
         return false;
     }
     
+    // Erase could be replaced to storing additional dummy-element
+    // E.g. index_finder[...] = -1
+    // This reduces the runtime and complexity with tradeoff on memory
+    
     bool remove(int val) {
         if (index_finder.count(val)) {
             auto idx = index_finder[val];
