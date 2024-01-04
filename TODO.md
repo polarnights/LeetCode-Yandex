@@ -19,3 +19,5 @@ Explanation: it's just a bug that occured w/ LeetCode, runtime should remain the
 - Clang-format usage: Shift + Option + F
 
 - TODO: Split task explanation into multiple README.md's inside tasks (?)
+
+- TODO: Explain the difference between NULL and nullptr
