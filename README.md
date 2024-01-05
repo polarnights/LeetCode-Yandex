@@ -62,6 +62,10 @@ https://leetcode.com/problems/merge-two-sorted-lists/
 
 19) TODO
 
+20) TODO
+
+21) TODO
+
 -----
 
 Last Updated On: 03/01/2024
