@@ -21,3 +21,6 @@ Explanation: it's just a bug that occured w/ LeetCode, runtime should remain the
 - TODO: Split task explanation into multiple README.md's inside tasks (?)
 
 - TODO: Explain the difference between NULL and nullptr
+
+- TODO: Read about C++ memory to revise it 
+How does Class inside Class work in terms of destructor?
