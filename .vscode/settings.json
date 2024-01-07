@@ -70,6 +70,9 @@
         "format": "cpp",
         "numeric": "cpp",
         "queue": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "__tree": "cpp",
+        "map": "cpp",
+        "stack": "cpp"
     }
 }
