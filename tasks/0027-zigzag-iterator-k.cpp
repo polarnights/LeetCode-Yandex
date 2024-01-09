@@ -80,4 +80,6 @@ main() {
     while (zigzag.next_elem() != -1) {
         // ...
     }
+    // TODO: Find out about initializer list
+    // https://stackoverflow.com/questions/77786984/how-to-fix-my-implementation-of-multiple-vector-zigzag-iterator
 }
