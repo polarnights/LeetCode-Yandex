@@ -1,30 +1,35 @@
+#include <vector>
+
+using namespace std;
+
 class Solution {
   public:
-    void rotate(vector<int> &nums, int k) {
-        if (nums.size() < k) {
-            // todo
+    int gcd(int a, int b) {
+        if (a == 0) {
+            return b;
         }
-        int i = nums.size() - 1;
-        auto next = i - k;
-        auto saved = nums[i];
-        auto prev = i;
-        auto tmp = -1;
-        while (prev != tmp) {
-            while (next >= 0) {
-                nums[next + k] = nums[next];
-                next -= k;
+        return gcd(b % a, a);
+    }
+
+    void rotate(vector<int> &nums, int k) {
+        if (nums.empty()) {
+            return;
+        }
+        int gcd_res = gcd(nums.size(), k);
+        int saved;
+        int current;
+        int tmp;
+        for (int i = 0; i < gcd_res; i++) {
+            saved = nums[i];
+            current = (i + k) % nums.size();
+            tmp = -1;
+            while (current != i) {
+                tmp = nums[current];
+                nums[current] = saved;
+                saved = tmp;
+                current = (current + k) % nums.size();
             }
-            tmp = nums.size() + next;
-            if (tmp == prev) {
-                break;
-            } else {
-                prev = tmp;
-            }
-            nums[tmp] = nums[next + k];
-            next = tmp - k;
+            nums[current] = saved;
         }
     }
 };
-
-// Draft
-// todo - soltuion is a circular graph (кольцо из индексов)
