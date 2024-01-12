@@ -18,5 +18,5 @@ class Solution {
         }
         return false;
     }
-    // This idea is actually pretty cool :D
+    // This idea is actually pretty cool :)
 };
