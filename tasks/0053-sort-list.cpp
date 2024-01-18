@@ -28,3 +28,5 @@ class Solution {
         return elems[0];
     }
 };
+
+// Merge sort is also OK, but it is such a boring way to implement rn =(
