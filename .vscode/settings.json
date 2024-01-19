@@ -73,6 +73,7 @@
         "random": "cpp",
         "__tree": "cpp",
         "map": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "set": "cpp"
     }
 }
