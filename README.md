@@ -73,3 +73,6 @@ Last Updated On: 03/01/2024
 -----
 
 ![Tasks](https://github.com/olegoratovskiy/leetcode-frequently-asked-questions/blob/master/Yandex/last%206%20months/Screenshot%20from%202022-02-17%2019-59-05.png?raw=true)
+
+
+![Tasks - Screen 2 | TODO: Review](https://github.com/olegoratovskiy/leetcode-frequently-asked-questions/blob/master/Yandex/last%206%20months/Screenshot%20from%202022-02-17%2019-59-17.png?raw=true)
